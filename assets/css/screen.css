@@ -235,5 +235,3 @@ img.right { float: right; margin-left: 20px; }
 .art-header-inner { -webkit-animation: le-fade 0.5s 0 1 ease-out; -moz-animation: le-fade 0.5s 0 1 ease-out; }
 
 .art-list, .nav, .abt, .art-body { -webkit-animation: le-fade 0.5s 0s 1 ease-out; -moz-animation: le-fade 0.5s 0s 1 ease-out; }
-
-body { background-color: #555555; }
