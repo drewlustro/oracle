@@ -84,7 +84,9 @@ ga('send', 'pageview');
     <a id="logo" href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
     <ul class="nav-primary">
         {{! TODO: Add URLs here }}
-        <li><a href="{{@blog.url}}">INDEX</a></li>
+        <li><a href="http://github.com/drewlustro" target="_blank">GitHub</a></li>
+        <li><a class="twitter-link" href="http://www.twitter.com/msodrew" target="_blank">Twitter</a></li>
+        <li><a class="" href="http://soundcloud.com/drewlustro" target="_blank">Soundcloud</a></li>
         <li><a href="/about">ABOUT</a></li>
     </ul>
 </nav>
@@ -94,11 +96,11 @@ ga('send', 'pageview');
 
 <footer class="footer">
     <div class="back-to-top"><a href="">Top</a></div>
-    <!-- <div class="footer-nav"><p>{{@blog.title}}</p></div> -->
+    <div class="footer-nav">&nbsp;</div>
 
     <aside class="offsite-links">
-        <a class="twitter-link" href="http://www.twitter.com/msodrew" target="_blank">Twitter</a> /
-        <a class="github-link" href="http://github.com/drewlustro" target="_blank">GitHub</a> /
+        <a class="twitter-link" href="http://www.twitter.com/msodrew" target="_blank">Twitter</a> &nbsp;
+        <a class="github-link" href="http://github.com/drewlustro" target="_blank">GitHub</a> &nbsp;
         <a class="rss-link" href="{{ @blog.url }}/rss">RSS</a>
     </aside>
 </footer>

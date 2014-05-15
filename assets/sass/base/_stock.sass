@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans)
 
+
+$border-color: #ED6464
+
+
+
+
 /* Reset & Basics (Inspired by E. Meyers)
  *==================================================
 
@@ -105,7 +111,7 @@ a
     padding-top: 40px
     margin-left: -490px
     /* Half width of nav */
-    border-bottom: 1px solid #333
+    border-bottom: 1px solid mix(#555, $border-color, 70%)
     z-index: 2
     &.fixed
         position: fixed
@@ -122,9 +128,9 @@ a
 
 #logo h1
     font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif
-    font-weight: 700
-    font-size: 13px
-    line-height: 30px
+    font-weight: 800
+    font-size: 18px
+    line-height: 34px
     color: #000
     text-transform: uppercase
 
@@ -132,16 +138,20 @@ a
     font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif
     font-weight: 700
     font-size: 13px
-    line-height: 30px
+    line-height: 32px
     color: #000
     text-transform: uppercase
     a
         font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif
         font-weight: 700
-        font-size: 13px
-        line-height: 30px
+        font-size: 12px
+        line-height: 34px
         color: #000
         text-transform: uppercase
+        padding: 0 20px
+    &:last-child
+        a
+            padding-right: 0
 
 #logo h1
     width: 200px
@@ -155,8 +165,6 @@ a
 
 /* Home Page
  *==================================================*/
-
-div#home!
 
 #home > div.cover
     max-width: 980px
@@ -283,6 +291,7 @@ div.cover > img
         color: #999
         margin-top: 50px
 
+
 /* For simple, white background posts
 
 .simple .art-body
@@ -294,6 +303,15 @@ div.cover > img
 /*  List of Articles
  *==================================================
 
+
+.art-list-item p
+    width: 65%
+    float: left
+    margin-left: 5%
+    margin-bottom: 0
+    font-size: 16px
+    line-height: 24px
+
 .art-list
     padding: 120px 0 0
 
@@ -301,13 +319,23 @@ div.cover > img
     position: relative
     overflow: hidden
 
+
 .art-list-item
     padding: 40px 0
     list-style: none
     overflow: hidden
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid $border-color
+    // $total: 6
+    // @for $n from 1 to $total
+    //     &:nth-child(#{$n})
+    //         padding-left: ($n * 60px)
+    //         border-bottom-color: darken($border-color, 8% * $n)
+    //     &:nth-child(#{($total - $n)}) p
+    //         max-width: calc(65% - #{($n * 35px)})
+
     &:last-child
-        border-bottom: none
+        border-bottom: 0
+        // max-width: 100% !important
 
 .art-list-title
     font-size: 26px
@@ -327,17 +355,11 @@ div.cover > img
     color: #999
 
 .art-list-title a
-    color: #000
+    color: #001449
     &:hover
-        color: #b20f1f
+        color: #563444
 
-.art-list-item p
-    width: 65%
-    float: left
-    margin-left: 5%
-    margin-bottom: 0
-    font-size: 16px
-    line-height: 24px
+
 
 /*  Footer
  *==================================================
@@ -345,7 +367,7 @@ div.cover > img
 .footer
     padding: 30px 0 40px
     overflow: hidden
-    border-top: 1px solid #ccc
+    border-top: 1px solid darken($border-color, 40%)
     font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif
     font-size: 13px
     text-transform: uppercase
@@ -354,9 +376,9 @@ div.cover > img
         font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif
         font-size: 13px
         text-transform: uppercase
-        color: #777
+        color: darken($border-color, 35%)
         &:hover
-            color: #000
+            color: darken($border-color, 30%)
 
 .back-to-top, .footer-nav, .offsite-links
     width: 33.3%
