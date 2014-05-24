@@ -40,6 +40,8 @@
 {{/if}}
 
 <link rel="stylesheet" type="text/css" href="{{asset 'css/screen.css' }}" />
+<link rel="stylesheet" type="text/css" href="{{asset 'css/vendor/prism/prism-okaidia.css' }}" />
+<link rel="stylesheet" type="text/css" href="{{ asset 'js/vendor/prism/plugins/line-numbers/prism-line-numbers.css' }}"></script>
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset 'img/favicon.ico' }}">
 
 <!--[if lt IE 9]>
@@ -56,20 +58,6 @@
 
 {{ghost_head}}
 
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-37267502-1', 'drewlustro.com');
-ga('require', 'displayfeatures');
-ga('require', 'linkid', 'linkid.js');
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
 </head>
 
 <body class="{{body_class}}">
@@ -110,16 +98,31 @@ ga('send', 'pageview');
 <script type="text/javascript" src="{{ asset 'js/fittext.js' }}"></script>
 <script type="text/javascript" src="{{ asset 'js/app.js' }}"></script>
 <script type="text/javascript" src="{{ asset 'js/respond.min.js' }}"></script>
-<script type="text/javascript">
-  var ga_ua = '{{! TODO: SET GOOGLE ANALYTICS ID }}';
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/prism.js' }}"></script>
 
-  (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
-      function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
-      t=h.createElement(o);z=h.getElementsByTagName(o)[0];
-      t.src='//www.google-analytics.com/analytics.js';
-      z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
-      ga('create',ga_ua);ga('send','pageview');
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/components/prism-javascript.min.js' }}"></script>
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/components/prism-bash.min.js' }}"></script>
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/components/prism-css.min.js' }}"></script>
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/components/prism-css-extras.min.js' }}"></script>
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/components/prism-python.min.js' }}"></script>
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/components/prism-scss.min.js' }}"></script>
+<script type="text/javascript" src="{{ asset 'js/vendor/prism/plugins/line-numbers/prism-line-numbers.min.js' }}"></script>
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37267502-1', 'drewlustro.com');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
 </script>
+<!-- End Google Analytics -->
 
 {{! Ghost outputs important scripts and data with this tag }}
 {{ghost_foot}}
