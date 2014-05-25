@@ -1,13 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans)
 
 
-$border-color: #ED6464
+$border-color: blue
 
 
 
 
-/* Reset & Basics (Inspired by E. Meyers)
- *==================================================
+// Reset & Basics (Inspired by E. Meyers)
+
+*
+    box-sizing: border-box
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, cite, code, em, img, small, strong, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, embed, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, time, audio, video
     margin: 0
@@ -37,6 +39,8 @@ body
     font: 17px/28px ff-meta-serif-web-pro, "Georgia", serif
     color: #333
     background: #e4e4e4
+    border-top: 2px solid darken(blue, 15%)
+    border-bottom: 12px solid darken(blue, 15%)
 
 /* Typography
  *==================================================
@@ -108,7 +112,8 @@ a
     top: 0
     left: 50%
     height: 70px
-    padding-top: 40px
+    padding-top: 20px
+    padding-bottom: 50px
     margin-left: -490px
     /* Half width of nav */
     border-bottom: 1px solid mix(#555, $border-color, 70%)
@@ -313,7 +318,7 @@ div.cover > img
     line-height: 24px
 
 .art-list
-    padding: 120px 0 0
+    padding: 160px 0 0
 
 .art-list-body
     position: relative

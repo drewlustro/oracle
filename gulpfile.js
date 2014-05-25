@@ -1,8 +1,6 @@
 var gulp = require('gulp'),
-    coffee = require('gulp-coffee'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
-    plumber = require('gulp-plumber'),
     rename = require('gulp-rename'),
     filesize = require('gulp-filesize'),
     gutil = require('gulp-util'),
@@ -10,17 +8,22 @@ var gulp = require('gulp'),
     minifycss = require('gulp-minify-css'),
     notify = require('gulp-notify');
 
-var paths = {};
+var paths = {
+      sass: 'assets/sass',
+      css: 'assets/css',
+      js: 'assets/js',
+      temp: '.tmp'
+};
 
-gulp.task('coffee', function () {
-  return gulp.src([
-      'assets/coffee/*.coffee'
-    ])
-    .pipe(plumber())
-    .pipe(coffee())
-    .pipe(gulp.dest('js'))
-    .on('error', gutil.log)
-});
+// gulp.task('coffee', function () {
+//   return gulp.src([
+//       'assets/coffee/*.coffee'
+//     ])
+//     .pipe(plumber())
+//     .pipe(coffee())
+//     .pipe(gulp.dest('js'))
+//     .on('error', gutil.log)
+// });
 
 gulp.task('js-vendor', function () {
   return gulp.src([
@@ -68,11 +71,11 @@ gulp.task('styles:dist', function () {
 
 gulp.task('js-all', ['js-vendor']);
 
-gulp.task('server', function(next) {
-  var connect = require('connect'),
-      server = connect();
-  server.use(connect.static('../../../')).listen(process.env.PORT || 35729, next);
-});
+// gulp.task('server', function(next) {
+//   var connect = require('connect'),
+//       server = connect();
+//   server.use(connect.static('../../../')).listen(process.env.PORT || 35729, next);
+// });
 
 gulp.task('watch', function () {
   var path = require('path');
