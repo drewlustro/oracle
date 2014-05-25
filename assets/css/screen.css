@@ -1,15 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/screen\.sass}line{font-family:\000036}}
 p strong {
   font-weight: 500;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000312}}
 * {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000316}}
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, cite, code, em, img, small, strong, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, embed, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, time, audio, video {
   margin: 0;
   padding: 0;
@@ -19,29 +21,29 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000324}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, time, nav, section {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000327}}
 html, body, .wrapper {
   min-height: 100%;
 }
 
 /* Body
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000333}}
 html {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000336}}
 .wrapper {
   min-height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000339}}
 body {
   position: relative;
   overflow-x: hidden;
@@ -54,7 +56,7 @@ body {
 
 /* Typography
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000351}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "leitura-news", "Georgia", serif;
   font-weight: normal;
@@ -63,29 +65,29 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000358}}
 p {
   margin: 0 0 28px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000361}}
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000364}}
 em {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000367}}
 sup {
   line-height: 0;
 }
 
 /* Teaser
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000373}}
 header#teaser h1 {
   text-transform: none !important;
   color: #333333;
@@ -95,7 +97,7 @@ header#teaser h1 {
 
 /* Links
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000382}}
 a {
   color: #b20f1f;
   text-decoration: none;
@@ -103,7 +105,7 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000388}}
 a:hover {
   color: #8d0d19;
 }
@@ -111,19 +113,19 @@ a:hover {
 /*  Layout
  *================================================== */
 /* White container that is the "page" */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\0000395}}
 .wrapper {
   max-width: 1080px;
   margin: 0 auto;
 }
 
 /* Containers to keep content to a set width */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003102}}
 .nav, .art-header-inner, .footer, .art-list, .abt, .fourohfour {
   width: 980px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003106}}
 .nav, .art-body-inner, .footer, .art-list, .abt, .fourohfour {
   position: relative;
   margin: 0 auto;
@@ -131,7 +133,7 @@ a:hover {
 
 /*  Nav
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003113}}
 .nav {
   position: absolute;
   top: 0;
@@ -144,28 +146,28 @@ a:hover {
   border-bottom: 1px solid #cbcbcb;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003124}}
 .nav.fixed {
   position: fixed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003127}}
 #logo {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003130}}
 .nav-primary {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003132}}
 .nav-primary li {
   display: inline-block;
   margin-left: 10px;
   font-weight: 500;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003137}}
 #logo h1 {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -175,7 +177,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003145}}
 .nav-primary li {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -184,7 +186,7 @@ a:hover {
   color: black;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003152}}
 .nav-primary li a {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -193,12 +195,12 @@ a:hover {
   color: #222222;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003160}}
 .nav-primary li:last-child a {
   padding-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003163}}
 #logo h1 {
   width: 200px;
   height: 30px;
@@ -206,7 +208,7 @@ a:hover {
   letter-spacing: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003169}}
 .nav li:first-child {
   margin-left: 0;
   /* Remove left margin from the first nav li */
@@ -214,14 +216,14 @@ a:hover {
 
 /* Home Page
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003176}}
 #home > div.cover {
   max-width: 980px;
   margin: 0px auto;
   /*padding-top: 110px; */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003181}}
 div.cover > img {
   width: 100%;
   height: 100%;
@@ -229,13 +231,13 @@ div.cover > img {
 
 /*  Article
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003188}}
 .art {
   margin-top: -131px;
 }
 
 /* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003193}}
 .art-header {
   height: 900px;
   /* Background image is defined in the post */
@@ -245,7 +247,7 @@ div.cover > img {
 }
 
 /* Contains the time, title and subtitle for an article */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003202}}
 .art-header-inner {
   position: fixed;
   top: 300px;
@@ -253,12 +255,12 @@ div.cover > img {
   margin-left: -490px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003208}}
 .art-time, .art-title, .art-subtitle {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003212}}
 .art-time {
   font-family: "inconsolata", "Andale Mono", "Monaco", "Courier New", monospace;
   font-size: 14px;
@@ -269,7 +271,7 @@ div.cover > img {
   color: #444444;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003221}}
 .art-title {
   font-size: 100px;
   line-height: 0.9;
@@ -278,7 +280,7 @@ div.cover > img {
   -webkit-font-smoothing: antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003228}}
 .art-subtitle {
   margin-top: 4px;
   font-size: 14px;
@@ -287,43 +289,44 @@ div.cover > img {
 }
 
 /* If small header, make few adjustments */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003237}}
 .small .art-title {
   font-size: 70px;
   line-height: 65px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003240}}
 .small.art-header-inner {
   top: 320px;
 }
 
 /* Body */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003245}}
 .art-body {
   position: relative;
   width: 100%;
   background: white;
   z-index: 100;
+  font-size: 18px;
   -webkit-box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003255}}
 .art-body-inner {
   max-width: 640px;
   padding: 80px 0 120px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003258}}
 .art-body-inner ul, .art-body-inner ol {
   /* For lists in the article body */
   margin-bottom: 26px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003261}}
 .art-body-inner ul li {
   list-style: disc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003263}}
 .art-body-inner mark {
   background-color: #fdffb6;
   padding: 2px;
@@ -331,7 +334,7 @@ div.cover > img {
   -moz-box-shadow: #fdffb6 0 0 5px;
   box-shadow: #fdffb6 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003269}}
 .art-body-inner blockquote {
   margin: 42px 10px;
   padding-left: 20px;
@@ -339,7 +342,7 @@ div.cover > img {
   font-size: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003275}}
 .dropcap {
   /* First character on articles */
   float: left;
@@ -348,7 +351,7 @@ div.cover > img {
   line-height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003282}}
 .art-subhead {
   /* Subheads are used to break up sections of an article */
   margin: 60px 0 15px;
@@ -357,25 +360,25 @@ div.cover > img {
   letter-spacing: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003289}}
 .callout {
   /* Callouts are like large pullquotes */
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003294}}
 .art-body-inner img {
   max-width: 100%;
   max-height: 600px;
   margin-bottom: 26px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003298}}
 .art-body-inner img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003302}}
 .art-body-inner .art-reference {
   font-size: 80%;
   color: #999999;
@@ -383,7 +386,7 @@ div.cover > img {
 }
 
 /* For simple, white background posts */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003310}}
 .simple .art-body {
   background: none;
   -webkit-box-shadow: none;
@@ -393,7 +396,7 @@ div.cover > img {
 
 /*  List of Articles
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003320}}
 .art-list-item p {
   width: 65%;
   float: left;
@@ -403,44 +406,44 @@ div.cover > img {
   line-height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003328}}
 .art-list {
   padding: 160px 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003331}}
 .art-list-body {
   position: relative;
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003336}}
 .art-list-item {
   padding: 40px 0;
   list-style: none;
   overflow: hidden;
   border-bottom: 1px solid blue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003349}}
 .art-list-item:last-child {
   border-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003353}}
 .art-list-title {
   font-size: 26px;
   line-height: 28px;
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003358}}
 .art-list-item-title-and-time {
   float: left;
   width: 30%;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003363}}
 .art-list-time {
   font-family: "inconsolata", "Andale Mono", "Monaco", "Courier New", monospace;
   font-size: 12px;
@@ -450,18 +453,18 @@ div.cover > img {
   color: #888888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003371}}
 .art-list-title a {
   color: #001449;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003373}}
 .art-list-title a:hover {
   color: #2c2cc3;
 }
 
 /*  Footer
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003381}}
 .footer {
   position: absolute;
   bottom: 20px;
@@ -476,35 +479,35 @@ div.cover > img {
   text-transform: uppercase;
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003394}}
 .footer a {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #00004d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003398}}
 .footer a:hover {
   color: #000066;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003401}}
 .back-to-top, .footer-nav, .offsite-links {
   width: 33.3%;
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003405}}
 .footer-nav {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003408}}
 .offsite-links {
   text-align: right;
 }
 
 /* Remove prev & next links on loop */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003421}}
 .art-list + .footer .footer-nav, .abt + .footer .footer-nav {
   text-indent: -9999px;
   text-align: left;
@@ -513,22 +516,22 @@ div.cover > img {
 /*  White Reverse Theme
  *================================================== */
 /* Nav */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003429}}
 .nav.white {
   border-bottom-color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003432}}
 .nav.white li {
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003433}}
 .nav.white li a {
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003438}}
 .nav.white #logo h1 {
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
@@ -536,11 +539,11 @@ div.cover > img {
 }
 
 /* Art header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003445}}
 .art-header.white {
   background-color: #111111;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003447}}
 .art-header.white .art-time, .art-header.white .art-title, .art-header.white .art-subtitle {
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
@@ -548,18 +551,18 @@ div.cover > img {
 
 /*  About page
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003454}}
 .abt {
   padding: 200px 0 100px;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003457}}
 .abt .abt-header {
   font-size: 140px;
   line-height: 1;
   text-transform: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003461}}
 .abt .abt-subheader {
   font-size: 24px;
   font-style: italic;
@@ -567,7 +570,7 @@ div.cover > img {
   color: #777777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003467}}
 .abt-body {
   -moz-column-count: 2;
   -moz-column-gap: 20px;
@@ -576,7 +579,7 @@ div.cover > img {
   margin-bottom: 28px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003474}}
 .abt-signoff {
   line-height: 1.3;
   font-style: italic;
@@ -585,7 +588,7 @@ div.cover > img {
 
 /*  404 page
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003482}}
 .fourohfour {
   padding: 240px 0 100px;
   text-align: center;
@@ -593,7 +596,7 @@ div.cover > img {
 
 /*  Code
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003489}}
 code, tt {
   background: #ededee;
   color: #3c4043;
@@ -601,7 +604,7 @@ code, tt {
   padding: 1px 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003495}}
 pre {
   display: block;
   padding: 9.5px;
@@ -612,7 +615,7 @@ pre {
   word-wrap: break-word;
   background-color: #ededee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003504}}
 pre code {
   font-size: inherit;
   white-space: -moz-pre-wrap;
@@ -622,7 +625,7 @@ pre code {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003512}}
 tt {
   font-size: inherit;
   white-space: -moz-pre-wrap;
@@ -636,26 +639,26 @@ tt {
  *================================================== */
 @media only screen and (max-width: 1080px) {
   /* Set all of the 980 containers to flexible width */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003524}}
   .nav, .art-body-inner, .art-header-inner, .footer, .art-list, .abt, .fourohfour {
     width: 90%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003522}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003526}}
   .nav, .art-header-inner {
     margin-left: -45%;
   }
 }
 @media only screen and (max-width: 1024px) {
   /* Everything becomes scrolling and non-fading */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003531}}
   .nav {
     position: relative;
     opacity: 1 !important;
     /* Important to override JS values */
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003536}}
   .nav.fixed {
     position: relative;
     opacity: 1 !important;
@@ -663,7 +666,7 @@ tt {
     display: inline-block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003542}}
   .art-header-inner {
     position: relative;
     top: 0 !important;
@@ -675,7 +678,7 @@ tt {
   }
 
   /* Articles no longer have fixed heights */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003547}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003551}}
   .art-header {
     height: auto;
     padding-bottom: 100px;
@@ -684,28 +687,28 @@ tt {
   }
 
   /* Remove bottom space out if articles doesn't have a background */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003553}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003557}}
   .simple .art-header {
     padding-bottom: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003559}}
   .art-list {
     padding-top: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003561}}
   .abt {
     padding: 40px 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003559}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003563}}
   .fourohfour {
     padding: 80px 0 60px;
   }
 }
 @media only screen and (max-width: 780px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003567}}
   .nav-primary {
     float: none;
     display: block;
@@ -713,70 +716,70 @@ tt {
     text-align: left;
     padding-top: 30px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003574}}
   .nav-primary li a {
     padding-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003574}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003578}}
   .art-body-inner ul, .art-body-inner ol {
     margin-left: 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003580}}
   .art-title {
     letter-spacing: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003582}}
   .art-subtitle, .art-time {
     font-size: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003580}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003584}}
   .nav {
     padding-top: 25px;
     margin-bottom: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003587}}
   .art-list-item-title-and-time, .art-list-item p {
     float: none;
     width: auto;
     margin-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003591}}
   .abt-body {
     -moz-column-count: 1;
     -webkit-column-count: 1;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003590}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003594}}
   .footer {
     position: static;
     margin-top: 80px;
   }
 }
 @media only screen and (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003596}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003600}}
   .nav #logo {
     float: none;
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003603}}
   .nav #logo h1 {
     display: block;
     width: auto;
     font-size: 16px;
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003608}}
   .nav li {
     margin-left: 0;
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003607}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003611}}
   .nav li a {
     display: block;
     text-align: left;
@@ -785,145 +788,143 @@ tt {
     padding-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003617}}
   .art-header {
     padding-bottom: 50px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003619}}
   .art-header-inner {
     margin-top: 190px !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003621}}
   .art-body-inner {
     padding-top: 30px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003623}}
   body {
     font-size: 15px;
     line-height: 24px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003626}}
   p {
     margin-bottom: 24px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003628}}
   .footer {
     padding: 10px 0 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003630}}
   .back-to-top, .footer-nav {
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003632}}
   .back-to-top {
     text-align: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003630}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003634}}
   .footer-nav {
     text-align: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003636}}
   .offsite-links {
     float: left;
     width: 100%;
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003640}}
   .offsite-links a {
     font-size: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003642}}
   .art-list + .footer .footer-nav {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003645}}
   .abt .abt-header {
     font-size: 80px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003643}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003647}}
   .abt .abt-subheader {
     font-size: 18px;
   }
 }
 /*  Misc
  *================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003649}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003653}}
 ::selection, ::-moz-selection {
   background: black;
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003654}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003658}}
 img.left {
   float: left;
   margin-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003657}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003661}}
 img.right {
   float: right;
   margin-left: 20px;
 }
 
 /* Clearfixing pile */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003667}}
 .nav:before, .art-body-inner:before, .footer:before, .art-list:before {
   content: "";
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003671}}
 .nav:after, .art-body-inner:after, .footer:after, .art-list:after {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003674}}
 .nav, .art-body-inner, .footer, .art-list {
   zoom: 1;
   /* For IE 6/7 (trigger hasLayout) */
 }
 
 @-webkit-keyframes le-fade {
-  /* line 675, ../sass/base/_stock.sass */
+  /* line 679, ../sass/base/_stock.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 677, ../sass/base/_stock.sass */
+  /* line 681, ../sass/base/_stock.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-moz-keyframes le-fade {
-  /* line 682, ../sass/base/_stock.sass */
+  /* line 686, ../sass/base/_stock.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 684, ../sass/base/_stock.sass */
+  /* line 688, ../sass/base/_stock.sass */
   100% {
     opacity: 1;
   }
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003688}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003692}}
 .art-header-inner {
   -webkit-animation: le-fade 0.5s 0 1 ease-out;
   -moz-animation: le-fade 0.5s 0 1 ease-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drew\/Dropbox\/dev\/drewlustro\/content\/themes\/rollsroyce\/assets\/sass\/base\/_stock\.sass}line{font-family:\00003696}}
 .art-list, .nav, .abt, .art-body {
   -webkit-animation: le-fade 0.5s 0s 1 ease-out;
   -moz-animation: le-fade 0.5s 0s 1 ease-out;
