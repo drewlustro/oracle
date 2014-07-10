@@ -8,7 +8,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
 	text-shadow: 0 1px rgba(0,0,0,0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	font-family: "Inconsolata", "Andale Mono", "Monaco", "Courier New", monospace
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
@@ -23,6 +23,7 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Code blocks */
