@@ -15,17 +15,8 @@ var paths = {
       temp: '.tmp'
 };
 
-// gulp.task('coffee', function () {
-//   return gulp.src([
-//       'assets/coffee/*.coffee'
-//     ])
-//     .pipe(plumber())
-//     .pipe(coffee())
-//     .pipe(gulp.dest('js'))
-//     .on('error', gutil.log)
-// });
 
-gulp.task('js-vendor', function () {
+gulp.task('js:vendor', function () {
   return gulp.src([
     'assets/js/vendor/*'
   ])
@@ -69,7 +60,7 @@ gulp.task('styles:dist', function () {
 });
 
 
-gulp.task('js-all', ['js-vendor']);
+gulp.task('js:all', ['js:vendor']);
 
 // gulp.task('server', function(next) {
 //   var connect = require('connect'),
@@ -81,7 +72,7 @@ gulp.task('watch', function () {
   var path = require('path');
     //   livereload = require('gulp-livereload')();
 
-  gulp.watch('assets/coffee/**/*.coffee', ['js-all']);
+  gulp.watch('assets/coffee/**/*.coffee', ['js:all']);
   gulp.watch('assets/sass/**/*.sass', ['styles']);
   gulp.watch([
     'assets/js/*.min.js',
@@ -94,4 +85,4 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['watch']);
-gulp.task('build', ['styles:dist', 'js-all']);
+gulp.task('build', ['styles:dist', 'js:all']);

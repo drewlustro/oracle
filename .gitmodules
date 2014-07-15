@@ -1,0 +1,3 @@
+[submodule "assets/sass/vendor/maxrelax"]
+	path = assets/sass/vendor/maxrelax
+	url = git@github.com:maxrelax/lib-sass.git

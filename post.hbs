@@ -1,18 +1,18 @@
 {{!< default}}
 {{#post}}
 
-<article class="art simple {{post_class}}">
-    
-    <header class="art-header">
-        <div class="art-header-inner" style="margin-top: 0px; opacity: 1;">
-            <time class="art-time">{{date published_at format="MMMM Do, YYYY"}}</time>
-            <h2 class="art-title">{{title}}</h2>
-            <p class="art-subtitle"></p>
+<article class="article-single simple {{post_class}}">
+
+    <header class="article-header">
+        <div class="article-header-inner" style="margin-top: 0px; opacity: 1;">
+            <time class="article-time">{{date published_at format="MMMM Do, YYYY"}}</time>
+            <h2 class="article-title">{{title}}</h2>
+            <p class="article-subtitle"></p>
         </div>
     </header>
 
-    <div class="art-body">
-        <div class="art-body-inner">
+    <div class="article-body">
+        <div class="article-body-inner">
             {{content}}
         </div>
     </div>

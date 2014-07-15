@@ -39,6 +39,7 @@
 <meta property="og:site_name" content="{{@blog.title}}">
 {{/if}}
 
+<link rel="stylesheet" type="text/css" href="{{asset 'css/vendor/normalize.css' }}" />
 <link rel="stylesheet" type="text/css" href="{{asset 'css/screen.min.css' }}" />
 <link rel="stylesheet" type="text/css" href="{{asset 'css/vendor/prism/prism-okaidia.css' }}" />
 <link rel="stylesheet" type="text/css" href="{{ asset 'js/vendor/prism/plugins/line-numbers/prism-line-numbers.css' }}"></script>
@@ -66,33 +67,35 @@
 <body class="{{body_class}}">
 <div class="wrapper">
 
-{{! Menu }}
-{{#if post}}
-<nav class="nav fixed">
-{{else}}
-<nav class="nav">
-{{/if}}
-    <a id="logo" href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
-    <ul class="nav-primary">
-        {{! TODO: Add URLs here }}
-        <li><a href="http://github.com/drewlustro" target="_blank">GitHub</a></li>
-        <li><a class="twitter-link" href="http://www.twitter.com/msodrew" target="_blank">Twitter</a></li>
-        <li><a class="" href="http://soundcloud.com/drewlustro" target="_blank">Soundcloud</a></li>
-        <li><a href="/about">ABOUT</a></li>
-    </ul>
-</nav>
+    {{! Menu }}
+    {{#if post}}
+    <nav class="nav fixed">
+    {{else}}
+    <nav class="nav">
+    {{/if}}
+        <a class="logo" href="{{@blog.url}}">{{@blog.title}}</a>
+        <ul class="nav-primary">
+            {{! TODO: Add URLs here }}
+            <li><a href="http://github.com/drewlustro" target="_blank">GitHub</a></li>
+            <li><a class="twitter-link" href="http://www.twitter.com/msodrew" target="_blank">Twitter</a></li>
+            <li><a class="" href="http://soundcloud.com/drewlustro" target="_blank">Soundcloud</a></li>
+            <li><a href="/about">ABOUT</a></li>
+        </ul>
+    </nav>
 
-{{! Everything else gets inserted here }}
-{{{body}}}
+    <section class="content">
+        {{! Everything else gets inserted here }}
+        {{{body}}}
+    </section>
 
-<footer class="footer">
-    <div class="back-to-top"><a href="">Top</a></div>
-    <div class="footer-nav">&nbsp;</div>
+    <footer class="footer">
+        <div class="back-to-top"><a href="">Top</a></div>
+        <div class="footer-nav">&nbsp;</div>
 
-    <aside class="offsite-links">
-        <a class="rss-link" href="{{ @blog.url }}/rss">RSS</a>
-    </aside>
-</footer>
+        <aside class="offsite-links">
+            <a class="rss-link" href="{{ @blog.url }}/rss">RSS</a>
+        </aside>
+    </footer>
 
 </div> {{! End of wrapper }}
 

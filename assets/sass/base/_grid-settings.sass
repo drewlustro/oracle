@@ -1,0 +1,20 @@
+@import ../vendor/neat/neat-helpers
+
+// Neat Overrides
+$column: 100px
+$gutter: 10px
+$grid-columns: 16
+$max-width: 1600px
+
+// Neat Breakpoints
+$mobile-screen: 639px
+$sm-screen: 640px
+$med-screen: 860px
+$lg-screen: 1200px
+$xl-screen: 1400px
+
+$mobile: new-breakpoint(max-width $mobile-screen 16)
+$sm-screen-plus: new-breakpoint(min-width $sm-screen 8)
+$med-screen-plus: new-breakpoint(min-width $med-screen 8)
+$lg-screen-plus: new-breakpoint(min-width $lg-screen 12)
+$xl-screen-plus: new-breakpoint(min-width $xl-screen 16)
