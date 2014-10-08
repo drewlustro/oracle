@@ -25,7 +25,7 @@ $xl-screen-plus: new-breakpoint(min-width $xl-screen 16)
 // @import base/grid-settings
 @import vendor/neat/neat
 @import vendor/base/base
-@import vendor/maxrelax/all
+@import vendor/maxrelax/maxrelax
 
 $leitura: "leitura-news", "Georgia", serif
 $inconsolata: "Inconsolata", "Andale Mono", "Monaco", "Courier New", monospace
@@ -39,7 +39,7 @@ $border-color: $charcoal
     box-sizing: border-box
 
 /* Body
- *==================================================
+ *==================================================*/
 
 html
     height: 100%
@@ -51,11 +51,14 @@ body
     color: #333
     background: #fff
     margin: 0
-    padding: 0
-    min-height: calc(100% - 100px)
+    border-bottom: 5px solid $charcoal
+    +query(sm-plus)
+        padding-bottom: calc(2em + 100px)
+        border-bottom: none
+        min-height: calc(100% - 100px)
 
 /* Typography
- *==================================================
+ *==================================================*/
 
 h1, h2, h3, h4, h5, h6
     font-family: $leitura
@@ -82,7 +85,7 @@ p
         font-weight: 700
 
 /* Links
- *==================================================
+ *==================================================*/
 
 a
     color: $border-color
@@ -94,23 +97,27 @@ a
         color: #8d0d19
 
 /* structure
- *==================================================
+ *==================================================*/
 
 .wrapper
     min-height: 100%
-    margin: 4em
+
     +outer-container
     +clearfix
+    +query(sm-plus)
+        margin: 4em
+        .content
+            +span-columns(12)
+            +omega
+        .nav
+            +span-columns(4)
 
-    .content
-        +span-columns(12)
-        +omega
-    .nav
-        +span-columns(4)
-
-
+.content
+    margin-top: 2em
+    +query(sm-plus)
+        margin-top: 0
 /* Main Nav
- *==================================================
+ *==================================================*/
 
 .nav
     font-family: $proxima
@@ -120,6 +127,7 @@ a
     +pad(2em 3em)
     +linear-gradient(to top, tint($charcoal, 10%), $charcoal)
     +font-antialiased
+    box-shadow: 0 5px 20px 0 rgba($black, .15)
     a
         color: $grey-30
     a.logo
@@ -143,12 +151,15 @@ a
                 color: $green-sea
 
 /* Article List
- *==================================================
+ *==================================================*/
 
 .posts
     display: block
-    +shift(1 of 12)
-    +pad(.2em 4em)
+    margin-top: 2em
+    +query(sm-plus)
+        margin-top: 0
+        +shift(1 of 12)
+        +pad(.2em 4em)
 
 .article-list
     display: block
@@ -160,31 +171,42 @@ a
     display: block
     border-bottom: 1px solid #cfcfcf
     +clearfix
-    +pad(1em 0)
+    +pad(1em 2em)
     &:first-child
         padding-top: 0
     &:last-child
         padding-bottom: 0
         border-bottom: 0
+    +query(sm-plus)
+        +pad(1em 0)
 
 
 .article-time
-    float: right
+    float: none
     font-family: $inconsolata
     font-size: .8rem
     text-transform: uppercase
+    letter-spacing: 2px
     color: #444
-    max-width: 20%
-    margin-top: .4em
+    margin-bottom: .5em
+    +query(sm-plus)
+        margin-bottom: 0
+        float: right
+        margin-top: .4em
+        max-width: 20%
+
 
 
 
 .article-title
     margin-top: 0
-    float: left
-    max-width: 70%
     font-family: $proxima
-    font-size: 1.5rem
+    font-size: 1.4rem
+    +query(sm-plus)
+        float: left
+        max-width: 70%
+        font-size: 1.5rem
+
 
 
 
@@ -206,24 +228,29 @@ a
 
 
 /* Article Post Single
- *==================================================
+ *==================================================*/
 
 
 
 .article-header
     position: relative
-    top: -1em
+    +pad(0 2em)
+    +query(sm-plus)
+        padding-left: 0
+        padding-right: 0
+        top: -1em
 
 .article-header-inner
     +clearfix
 
 .article-single
-    +shift(1 of 12)
+    +query(sm-plus)
+        +shift(1 of 12)
 
 .article-body
-    font-size: 1.1em
+    font-size: 1em
     line-height: 1.581
-
+    +pad(0 2em)
     p:first-child
         img:first-child
             border: 0
@@ -243,11 +270,7 @@ a
         border-bottom: 1px dotted $green-sea
         &:hover
             border-bottom: none
-    img
-        padding: .6em
-        border-radius: 4px
-        border: 1px solid #ccc
-        background-color: #fff
+
 
     blockquote
         font-size: 1.5em
@@ -257,20 +280,34 @@ a
         margin: 3em auto
         max-width: 50%
 
+    +query(sm-plus)
+        font-size: 1.1em
+        padding-left: 0
+        padding-right: 0
+        img
+            padding: .6em
+            border-radius: 4px
+            border: 1px solid #ccc
+            background-color: #fff
+
 pre
     margin-bottom: 2em !important
 
 /*  Footer
- *==================================================
+ *==================================================*/
 
 .footer
-    display: none
-    position: absolute
-    bottom: 0
-    width: 100%
-    height: 100px
-    max-width: $max-width
-    padding: 20px 0 10px
+    margin-top: 4em
+    +pad(2em)
+    +query(sm-plus)
+        margin-top: 0
+        position: absolute
+        bottom: 0
+        width: 100%
+        height: 100px
+        padding: 20px 0 10px
+        max-width: $max-width
+
     opacity: .5
     overflow: hidden
     border-top: 1px solid #bbb
