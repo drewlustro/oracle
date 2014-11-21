@@ -32,6 +32,9 @@ $inconsolata: "Inconsolata", "Andale Mono", "Monaco", "Courier New", monospace
 $proxima: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif
 $alternate-gothic: "alternate-gothic-no-3-d", $proxima
 
+$font-header: $proxima
+$font-body: $inconsolata
+
 $border-color: $charcoal
 
 *
@@ -47,7 +50,7 @@ html
 body
     position: relative
     overflow-x: hidden
-    font-family: $leitura
+    font-family: $font-body
     color: #333
     background: #fff
     margin: 0
@@ -61,7 +64,7 @@ body
  *==================================================*/
 
 h1, h2, h3, h4, h5, h6
-    font-family: $leitura
+    font-family: $font-header
     color: #222
     margin-top: .8em
     margin-bottom: .3em
@@ -102,10 +105,11 @@ a
 .wrapper
     min-height: 100%
 
+
     +outer-container
     +clearfix
     +query(sm-plus)
-        margin-top: 4em
+        margin-top: 8em
         margin-bottom: 4em
         .content
             +span-columns(12)
@@ -116,7 +120,7 @@ a
 .content
     margin-top: 2em
     +query(sm-plus)
-        margin-top: 0
+        margin-top: -4.4rem
 /* Main Nav
  *==================================================*/
 
@@ -128,7 +132,10 @@ a
     +pad(2em 3em)
     +linear-gradient(to top, tint($charcoal, 10%), $charcoal)
     +font-antialiased
-    box-shadow: 0 5px 20px 0 rgba($black, .15)
+    border-radius: 4px
+    box-shadow: 0 5px 2px rgba(0,0,0, .2)
+    border: 1px solid #777
+    border-top-color: #000
     a
         color: $grey-30
     a.logo
@@ -158,7 +165,7 @@ a
     display: block
     margin-top: 2em
     +query(sm-plus)
-        margin-top: 0
+        margin-top: 4rem
         +shift(1 of 12)
         +pad(.2em 4em)
 
@@ -254,7 +261,6 @@ a
     +pad(0 2em)
     p:first-child
         img:first-child
-            border: 0
             padding: 0
 
     h1, h3, h5
@@ -286,10 +292,11 @@ a
         padding-left: 0
         padding-right: 0
         img
-            padding: .6em
+            margin: 1em auto
             border-radius: 4px
-            border: 1px solid #ccc
-            background-color: #fff
+            box-shadow: 0 3px 1px rgba(0,0,0,.34)
+            border: 1px solid #777
+
 
 pre
     margin-bottom: 2em !important
