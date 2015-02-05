@@ -1,5 +1,14 @@
-v0.2 (19 JAN 2014)
-- Got rid of partials to fix problems on Ghost v0.4.4
+# Changelog
 
-v0.1.0 (5 JAN 2014)
-- First Release
+### 0.8.0
+**2015-02-05**
+* True fork to new name 'Oracle' (after the Starcraft II air unit)
+* massive lib cleanup
+
+### 0.7.0
+**2015-11-21**
+* Design overhaul, vastly improved responsiveness
+
+### 0.6.0
+**2015-05-14**
+* Original fork and design begins to stray

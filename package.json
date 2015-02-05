@@ -1,14 +1,14 @@
 {
-  "name": "drewtheme-tba",
-  "version": "0.0.7",
-  "description": "Drew Lustro's theme for Ghost.",
+  "name": "Oracle",
+  "version": "0.0.8",
+  "description": "Theme for Ghost 0.5.8+ for blog of drewlustro.com",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/drewlustro/rollsroyce.git"
+    "url": "git://github.com/drewlustro/oracle.git"
   },
   "keywords": [
     "ghost",
@@ -19,9 +19,9 @@
   "author": "Drew Lustro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drewlustro/rollsroyce/issues"
+    "url": "https://github.com/drewlustro/oracle/issues"
   },
-  "homepage": "https://github.com/drewlustro/rollsroyce",
+  "homepage": "https://github.com/drewlustro/oracle",
   "devDependencies": {
     "gulp": "^3.8.6",
     "gulp-concat": "^2.2.0",
