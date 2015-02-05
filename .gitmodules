@@ -1,0 +1,3 @@
+[submodule "assets/sass/vendor/powpow"]
+	path = assets/sass/vendor/powpow
+	url = git@github.com:maxrelax/powpow.git
