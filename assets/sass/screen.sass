@@ -1,5 +1,4 @@
 @import vendor/bourbon/bourbon
-
 @import vendor/neat/neat-helpers
 
 // $visual-grid: true
@@ -27,18 +26,17 @@ $xl-screen-plus: new-breakpoint(min-width $xl-screen 16)
 @import vendor/base/base
 @import vendor/powpow/powpow
 
-$leitura: "leitura-news", "Georgia", serif
-$inconsolata: "Inconsolata", "Andale Mono", "Monaco", "Courier New", monospace
+// typefaces
 $proxima: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif
-$alternate-gothic: "alternate-gothic-no-3-d", $proxima
+$fira-sans: "fira-sans", $proxima
 
 $font-header: $proxima
-$font-body: $inconsolata
-
+$font-body: $fira-sans
+$font-timestamp: $fira-sans
 $border-color: $charcoal
 
-*
-    +transition(all 300ms ease)
+*, *:before, *:after
+    +transition(transform 400ms ease, color 120ms ease, background 200ms ease, font-size 200ms ease)
     box-sizing: border-box
 
 /* Body
@@ -66,15 +64,22 @@ body
 h1, h2, h3, h4, h5, h6
     font-family: $font-header
     color: #222
-    margin-top: .8em
-    margin-bottom: .3em
+    margin-top: 1.5em
     text-rendering: optimizeLegibility
+    &:first-child
+        margin-top: 0
+
+h1, h2, h3
+    margin-bottom: 0.5em
+
+h4, h5, h6
+    margin-bottom: 0.3em
 
 p
     margin: 0 0 1em 0
 
 strong
-    font-weight: bold
+    font-weight: 500
 
 em
     font-style: italic
@@ -93,9 +98,7 @@ p
 a
     color: $border-color
     text-decoration: none
-    -webkit-transition: color .2s ease-in-out
-    -moz-transition: color .2s ease-in-out
-    transition: color .2s ease-in-out
+    +transition(color 120ms ease-in-out)
     &:hover
         color: #8d0d19
 
@@ -129,13 +132,12 @@ a
     font-size: .8rem
     text-transform: uppercase
     letter-spacing: .1em
-    +pad(2em 3em)
-    +linear-gradient(to top, tint($charcoal, 10%), $charcoal)
-    +font-antialiased
-    border-radius: 4px
+    padding: 2em 3em 3em 3em
     box-shadow: 0 5px 2px rgba(0,0,0, .2)
     border: 1px solid #777
     border-top-color: #000
+    +linear-gradient(to top, tint($charcoal, 10%), $charcoal)
+    +font-antialiased
     a
         color: $grey-30
     a.logo
@@ -143,14 +145,15 @@ a
         font-size: 1.2rem
         color: $grey-40
         font-weight: 500
-        padding-bottom: .5em
-        margin-bottom: 1.5em
-        border-bottom: 1px solid $grey-70
+        padding-bottom: .6em
+        margin-bottom: 1.4em
+        border-bottom: 1px dotted $grey-70
         &:hover
             color: $white
 
 
 .nav-primary
+    +list-reset
     li
         a
             display: block
@@ -179,29 +182,32 @@ a
     display: block
     border-bottom: 1px solid #cfcfcf
     +clearfix
-    +pad(1em 2em)
+    +pad(1.2em 2em)
     &:first-child
         padding-top: 0
     &:last-child
         padding-bottom: 0
         border-bottom: 0
     +query(sm-plus)
-        +pad(1em 0)
+        +pad(1.5em 0 0)
 
 
 .article-time
     float: none
-    font-family: $inconsolata
+    display: block
+    font-family: $font-timestamp
     font-size: .8rem
     text-transform: uppercase
-    letter-spacing: 2px
+    letter-spacing: 1px
+    text-align: left
     color: #444
-    margin-bottom: .5em
+    margin-bottom: .7em
     +query(sm-plus)
-        margin-bottom: 0
         float: right
+        margin-bottom: 0
         margin-top: .4em
-        max-width: 20%
+        text-align: right
+        max-width: 25%
 
 
 
@@ -257,31 +263,33 @@ a
 
 .article-body
     font-size: 1em
+    font-weight: 300
     line-height: 1.581
     +pad(0 2em)
-    p:first-child
+    p:first-of-type
+        margin-top: 0.8em
         img:first-child
-            padding: 0
-
-    h1, h3, h5
-        margin-bottom: .8em
+            margin-bottom: 1.2em
 
     ul
         list-style: square
-        margin-left: 1.5em
+        padding-left: 1.5em
         li
             margin-bottom: .3em
 
     a, a:link, a:visited
         color: $green-sea
-        border-bottom: 1px dotted $green-sea
+        border-bottom: 1px solid $green-sea
         &:hover
             border-bottom: none
 
+    strong
+        font-weight: 500
 
     blockquote
-        font-size: 1.5em
-        opacity: .7
+        font-weight: 400
+        font-size: 1.1em
+        opacity: .75
 
     hr
         margin: 3em auto
@@ -292,10 +300,10 @@ a
         padding-left: 0
         padding-right: 0
         img
-            margin: 1em auto
-            border-radius: 4px
-            box-shadow: 0 3px 1px rgba(0,0,0,.34)
-            border: 1px solid #777
+            margin: 0 auto 0.8em auto
+        iframe
+            margin: 0.8em auto
+
 
 
 pre
