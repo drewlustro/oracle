@@ -29,9 +29,11 @@ $xl-screen-plus: new-breakpoint(min-width $xl-screen 16)
 // typefaces
 $proxima: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif
 $fira-sans: "fira-sans", $proxima
+$inconsolata: "inconsolata", monospace
 
 $font-header: $proxima
 $font-body: $fira-sans
+$font-mono: $inconsolata
 $font-timestamp: $fira-sans
 $border-color: $charcoal
 
@@ -87,10 +89,12 @@ em
 sup
     line-height: 0
 
+pre
+    font-family: $font-mono
+    margin-bottom: 2em !important
 
-p
-    strong
-        font-weight: 700
+code
+    font-family: $font-mono
 
 /* Links
  *==================================================*/
@@ -189,7 +193,7 @@ a
         padding-bottom: 0
         border-bottom: 0
     +query(sm-plus)
-        +pad(1.5em 0 0)
+        +pad(1.5em 0 0.5em)
 
 
 .article-time
@@ -209,9 +213,6 @@ a
         text-align: right
         max-width: 25%
 
-
-
-
 .article-title
     margin-top: 0
     font-family: $proxima
@@ -223,13 +224,6 @@ a
 
 
 
-
-// .article-hero-title
-//     font-size: 100px
-//     line-height: .9
-//     letter-spacing: -2px
-//     width: 100%
-//     -webkit-font-smoothing: antialiased
 
 .article-subtitle
     margin-top: 4px
@@ -266,6 +260,15 @@ a
     font-weight: 300
     line-height: 1.581
     +pad(0 2em)
+    +query(sm-plus)
+        font-size: 1.1em
+        padding-left: 0
+        padding-right: 0
+        img
+            margin: 0 auto 0.8em auto
+        iframe
+            margin: 0.8em auto
+
     p:first-of-type
         margin-top: 0.8em
         img:first-child
@@ -295,19 +298,36 @@ a
         margin: 3em auto
         max-width: 50%
 
-    +query(sm-plus)
-        font-size: 1.1em
-        padding-left: 0
-        padding-right: 0
-        img
-            margin: 0 auto 0.8em auto
-        iframe
-            margin: 0.8em auto
+    .article-tags
+        margin: 4em 0 2em
+        text-transform: uppercase
+        font-size: 1rem
+        border-top: 1px solid $grey-10
+        padding-top: 2em
+        text-align: right
+        aside
+            display: block
+            margin-bottom: 0.5em
+            font-weight: 400
+        a, a:link, a:visited
+            display: inline-block
+            padding: 0.2em 0.8em
+            font-family: $font-mono
+            text-align: center
+            letter-spacing: 1px
+            border-radius: 4px
+            background-color: $grey-70
+            text-decoration: none
+            color: $off-white
+            +font-antialiased
+            +hover-active-focus
+                color: $off-white
+                background-color: $grey-80
 
-
-
-pre
-    margin-bottom: 2em !important
+.tag-header
+    margin-top: 0
+    margin-bottom: 0.1em
+    font-weight: 400
 
 /*  Footer
  *==================================================*/

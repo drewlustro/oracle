@@ -1,0 +1,29 @@
+{{!< default}}
+
+<section class="posts tags">
+  <ul class="article-list">
+    <li class="article-item">
+        <div class="article-meta">
+            <time class="article-time">Browsing By Tag</strong></time>
+            <h2 class="article-title"><h1 class="tag-header">{{#tag}}{{name}}{{/tag}}</h1></h2>
+        </div>
+        <p class="excerpt">{{excerpt}}</p>
+    </li>
+    {{#foreach posts }}
+    <li class="article-item">
+        <div class="article-meta">
+            <time class="article-time">{{date published_at format="MMM DD YYYY"}}</time>
+            <h2 class="article-title"><a href="{{ @blog.url }}{{ url }}">{{ title }}</a></h2>
+        </div>
+        <p class="excerpt">{{excerpt}}</p>
+    </li>
+    {{/foreach}}
+    <li class="article-item">
+        <div class="article-meta">
+            <time class="article-time">{{posts.length}} Posts</time>
+            <h2 class="article-title"><small>( ◔_◔)</small></h2>
+        </div>
+        <p class="excerpt">{{excerpt}}</p>
+    </li>
+  </ul>
+</section>
